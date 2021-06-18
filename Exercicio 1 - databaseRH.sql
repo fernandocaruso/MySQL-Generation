@@ -39,3 +39,7 @@ select * from tb_funcionarios where salario > 2.000;
 
 select * from tb_funcionarios where salario < 2.000;
 
+update tb_funcionarios set cargo = "Trainee" where id = 3;
+
+
+

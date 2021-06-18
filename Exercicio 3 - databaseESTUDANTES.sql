@@ -40,3 +40,5 @@ select * from tb_estudantes where notaProvaRedacao > 7;
 
 select * from tb_estudantes where notaProvaMatematica < 7;
 select * from tb_estudantes where notaProvaRedacao < 7; 
+
+update tb_estudantes set notaProvaRedacao = 8 where id = 5;

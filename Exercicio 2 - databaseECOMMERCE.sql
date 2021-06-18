@@ -46,4 +46,4 @@ select * from tb_ecommerce where preço > 500;
 
 select * from tb_ecommerce where preço < 500;
 
-
+update tb_ecommerce set preço = 49.90 where id = 10;
