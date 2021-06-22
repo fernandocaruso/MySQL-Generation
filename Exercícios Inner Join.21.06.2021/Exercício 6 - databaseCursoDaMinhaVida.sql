@@ -47,10 +47,10 @@ insert into tb_curso (descricao, preco, categoria_id) values ("Administração C
 insert into tb_curso (descricao, preco, categoria_id) values ("Edificações", 199.90, 3);
 insert into tb_curso (descricao, preco, categoria_id) values ("Ciências Contábeis", 299.90, 2);
 insert into tb_curso (descricao, preco, categoria_id) values ("Excel Avançado", 49.90, 1);
-insert into tb_curso (descricao, preco, categoria_id) value ("Contabilidade", 69.90, 3);
-insert into tb_curso (descricao, preco, categoria_id) value ("Photoshop", 37.90, 1);
-insert into tb_curso (descricao, preco, categoria_id) value ("Redes", 239.90, 3);
-insert into tb_curso (descricao, preco, categoria_id) value ("Arquitetura", 354.90, 2);
+insert into tb_curso (descricao, preco, categoria_id) values ("Contabilidade", 69.90, 3);
+insert into tb_curso (descricao, preco, categoria_id) values ("Photoshop", 37.90, 1);
+insert into tb_curso (descricao, preco, categoria_id) values ("Redes", 239.90, 3);
+insert into tb_curso (descricao, preco, categoria_id) values ("Arquitetura", 354.90, 2);
 
 select * from tb_curso;
 
