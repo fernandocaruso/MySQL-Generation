@@ -76,12 +76,12 @@ select * from tb_produtos where preco > 50;
 
 select * from tb_produtos where preco between 3 and 60;
 
-select * from tb_produtos where dorCabeca like "c%" or "%c";
-select * from tb_produtos where dorMuscular like "c%" or "%c";
-select * from tb_produtos where tintaCabelo like "c%" or "%c";
-select * from tb_produtos where esmalte like "c%" or "%c";
-select * from tb_produtos where balas like "c%" or "%c";
-select * from tb_produtos where saudeEbeleza like "c%" or "%c";
+select * from tb_produtos where dorCabeca like "b%" or "%b";
+select * from tb_produtos where dorMuscular like "b%" or "bc";
+select * from tb_produtos where tintaCabelo like "b%" or "%b";
+select * from tb_produtos where esmalte like "b%" or "%b";
+select * from tb_produtos where balas like "b%" or "%b";
+select * from tb_produtos where saudeEbeleza like "b%" or "%b";
 
 select tb_produtos.nomeFarmaceutico, tb_produtos.dorCabeca, tb_produtos.dorMuscular, tb_produtos.tintaCabelo, 
 tb_produtos.esmalte, tb_produtos.balas, tb_produtos.saudeEbeleza, tb_produtos.preco, tb_produtos.categoria_id, tb_categoria.departamento 
