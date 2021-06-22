@@ -46,12 +46,12 @@ foreign key (categoria_id) references tb_categoria (id)
 
 insert into tb_produtos (descricao, preco, categoria_id) values ("Sofás", 399.90, 1);
 insert into tb_produtos (descricao, preco, categoria_id) values ("Cadeira de Sol", 299.90, 1);
-insert into tb_produtos (descricao, preco, categoria_id)values ("Vaso Sanitário", 99.90, 2);
+insert into tb_produtos (descricao, preco, categoria_id) values ("Vaso Sanitário", 99.90, 2);
 insert into tb_produtos (descricao, preco, categoria_id) values ("Cano PVC 80m", 129.90, 2);
-insert into tb_produtos (descricao, preco, categoria_id) value ("Torneira p/ Pia", 29.90, 2);
-insert into tb_produtos (descricao, preco, categoria_id) value ("Espelho de Tomada", 7.90, 3);
-insert into tb_produtos (descricao, preco, categoria_id) value ("Filtro de Água", 39.90, 2);
-insert into tb_produtos (descricao, preco, categoria_id) value ("Cimento 25kg", 24.90, 3);
+insert into tb_produtos (descricao, preco, categoria_id) values ("Torneira p/ Pia", 29.90, 2);
+insert into tb_produtos (descricao, preco, categoria_id) values ("Espelho de Tomada", 7.90, 3);
+insert into tb_produtos (descricao, preco, categoria_id) values ("Filtro de Água", 39.90, 2);
+insert into tb_produtos (descricao, preco, categoria_id) values ("Cimento 25kg", 24.90, 3);
 
 select * from tb_produtos;
 
